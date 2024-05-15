@@ -60,7 +60,8 @@
     "sequelize": "^6.25.2",
     "socket.io": "^4.4.1",
     "ssh2": "^1.7.0",
-    "trash": "^8.1.1"
+    "trash": "^8.1.1",
+    "vercel": "^34.1.14"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.0.1",
