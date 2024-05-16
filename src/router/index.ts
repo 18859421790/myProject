@@ -8,7 +8,7 @@ import { chalkERROR, chalkINFO, chalkSUCCESS } from '@/utils/chalkTip';
 const router = new Router();
 
 export function loadAllRoutes(app) {
-  router.get('/', async (ctx, next) => {
+  router.get('/api/', async (ctx, next) => {
     ctx.body = {
       message: `欢迎访问${PROJECT_NAME},当前环境:${PROJECT_ENV},当前时间:${new Date().toLocaleString()}`,
     };
